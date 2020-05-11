@@ -1,38 +1,54 @@
+/*Styling of the navigation bar and header*/
 header{
-	
+	height:70px;
 	background:-moz-linear-gradient(to right,rgb(100, 170, 29 ),rgb(200, 194, 11));
 	background:-webkit-linear-gradient(to right,rgb(100, 170, 29 ),rgb(200, 194, 11));
 	background:-o-linear-gradient(to right,rgb(100, 170, 29 ),rgb(200, 194, 11));
-	background:-ms-linear-gradient(to right,rgb(100, 170, 29 ),rgb(200, 194, 11)); 
+	background:-ms-linear-gradient(to right,rgb(100, 170, 29 ),rgb(200, 194, 11));
 	/*background:linear-gradient(to right,rgb(31, 64, 55 ),rgb(153, 242, 200)); */
-	background:linear-gradient(to right,rgb(221, 246, 243 ),rgb(250, 172, 168)); 
-	background:linear-gradient(to right,rgb(221, 246, 243 ),rgb(250, 172, 168));
-	background:linear-gradient(to right,rgb(221, 246, 243 ),rgb(250, 172, 168));
-	background:linear-gradient(to right,rgb(221, 246, 243 ),rgb(250, 172, 168));
-	background:linear-gradient(to right,rgb(221, 246, 243 ),rgb(250, 172, 168));
-	background:linear-gradient(to right,rgb(221, 246, 243 ),rgb(250, 172, 168));
-	background:linear-gradient(to right,rgb(221, 246, 243 ),rgb(250, 172, 168));
-	background:linear-gradient(to right,rgb(221, 246, 243 ),rgb(250, 172, 168));
-	background:linear-gradient(to right,rgb(221, 246, 243 ),rgb(250, 172, 168));
 	background:linear-gradient(to right,rgb(195, 20, 50),rgb(36, 11, 54));
 
 }
 .myname{
-	
+
+	padding:15px 5px 0px 5px ;
 	display:inline-block;
+	margin-left:3%;
 }
 h1{
 
 	color:white;
-	font-family: 'Josefin Sans';font-size: 36px;
+	font-family: 'Josefin Sans';
+	font-size: 42px;
 	font-weight: 900;
-	padding-top: 2%;
+
 }
 .navcontainer{
-	color:blue;
+	background:linear-gradient(to right,rgb(112, 15, 52),rgb(36, 11, 54)) !important;
+	padding:12px 5px 0px 5px;
 	display:inline-block;
 	float:right;
 }
+
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255,102,203);
+}
+.nav-link {
+color: yellow !important;
+
+padding-left: 10px !important;
+padding-right: 5px !important;
+}
+/*Styling of the header finished*/
+
+
+
+
 
 
 img{
