@@ -1,10 +1,15 @@
+body{
+	font-size: 16px;
+}
+
 /*Styling of the navigation bar and header*/
+
 header{
+	
 	height:70px;
-	background:-moz-linear-gradient(to right,rgb(100, 170, 29 ),rgb(200, 194, 11));
-	background:-webkit-linear-gradient(to right,rgb(100, 170, 29 ),rgb(200, 194, 11));
-	background:-o-linear-gradient(to right,rgb(100, 170, 29 ),rgb(200, 194, 11));
-	background:-ms-linear-gradient(to right,rgb(100, 170, 29 ),rgb(200, 194, 11));
+	background:-moz-linear-gradient(to right,rgb(195, 20, 50 ),rgb(36, 11, 54));
+	background:-webkit-linear-gradient(to right,rgb(195, 20, 50),rgb(36,11, 54));
+	background:-ms-linear-gradient(to right,rgb(195, 20, 50 ),rgb(36, 11, 54));
 	/*background:linear-gradient(to right,rgb(31, 64, 55 ),rgb(153, 242, 200)); */
 	background:linear-gradient(to right,rgb(195, 20, 50),rgb(36, 11, 54));
 
@@ -24,10 +29,17 @@ h1{
 
 }
 .navcontainer{
-	background:linear-gradient(to right,rgb(112, 15, 52),rgb(36, 11, 54)) !important;
+	background:-moz-linear-gradient(to right,rgb(195, 20, 50 ),rgb(36, 11, 54))!important;
+	background:-webkit-linear-gradient(to right,rgb(195, 20, 50),rgb(36,11, 54))!important;
+	background:-ms-linear-gradient(to right,rgb(195, 20, 50 ),rgb(36, 11, 54))!important;
+	/*background:linear-gradient(to right,rgb(31, 64, 55 ),rgb(153, 242, 200)); */
+	background:linear-gradient(to right,rgb(195, 20, 50),rgb(36, 11, 54))!important;
 	padding:12px 5px 0px 5px;
 	display:inline-block;
 	float:right;
+}
+.navbar-nav{
+
 }
 
 
@@ -40,7 +52,6 @@ h1{
 }
 .nav-link {
 color: yellow !important;
-
 padding-left: 10px !important;
 padding-right: 5px !important;
 }
@@ -48,9 +59,70 @@ padding-right: 5px !important;
 
 
 
+/*Styling The Intro Section*/
+
+.Intro{
+	padding: 12vh 5px 5px 5vw;
+	font-size: 1rem;
+}
+@media (min-width: 650px){
+	.Intro{
+		font-size:1.3rem;
+	}
+}
+@media (min-width: 870px){
+	.Intro{
+		font-size:1.5rem;
+	}
+}
+@media (min-width: 1100px){
+	.Intro{
+		font-size:1.7rem;
+	}
+}
+
+
+#mypic{
+	padding-top: 15px;
+	width:48%;
+	float:left;
+	max-width: 500px;
+
+}
+.Intro-text{
+
+	height:48vw;
+	max-height: 90vh;
+	text-align: center;
+	padding-top: 13vw;
+	line-height: 2em;
+	vertical-align: middle;
+
+}
+.Intro .littlespan{
+	
+	font-size: 1em;
+	font-weight: bold;
+	font-style:oblique;
+
+}
+
+.Intro span{
+
+	font-size: 3em;
+	font-weight: bold;
+}
+.twitter-follow-button{
+	margin-top:10px;
+}
 
 
 
-img{
-	width:30%;
+
+
+
+
+
+.gallery{
+	width:50%;
 }
