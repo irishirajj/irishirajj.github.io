@@ -1,56 +1,89 @@
-/*Styling of the navigation bar and header*/
-header{
-	height:70px;
-	background:-moz-linear-gradient(to right,rgb(100, 170, 29 ),rgb(200, 194, 11));
-	background:-webkit-linear-gradient(to right,rgb(100, 170, 29 ),rgb(200, 194, 11));
-	background:-o-linear-gradient(to right,rgb(100, 170, 29 ),rgb(200, 194, 11));
-	background:-ms-linear-gradient(to right,rgb(100, 170, 29 ),rgb(200, 194, 11));
-	/*background:linear-gradient(to right,rgb(31, 64, 55 ),rgb(153, 242, 200)); */
-	background:linear-gradient(to right,rgb(195, 20, 50),rgb(36, 11, 54));
+html{
+	font-size:10px;
+}
 
+.myname h1{ /*Styled the heading "Rishi Raj"*/
+	font-family: "Merriweather Sans";
+	font-weight: 800;
+	font-size:1.5rem;
 }
 .myname{
-
-	padding:15px 5px 0px 5px ;
-	display:inline-block;
-	margin-left:3%;
+	display: inline-block;
 }
-h1{
-
-	color:white;
-	font-family: 'Josefin Sans';
-	font-size: 42px;
-	font-weight: 900;
-
-}
-.navcontainer{
-	background:linear-gradient(to right,rgb(112, 15, 52),rgb(36, 11, 54)) !important;
-	padding:12px 5px 0px 5px;
-	display:inline-block;
-	float:right;
+header{
+	background: #abcabc;
 }
 
 
-.custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+	img{
+	width:50%;
 }
 
-.custom-toggler.navbar-toggler {
-  border-color: rgb(255,102,203);
+
+
+
+
+
+
+@media(min-width:400px){
+html{
+	font-size:16px;
 }
-.nav-link {
-color: yellow !important;
 
-padding-left: 10px !important;
-padding-right: 5px !important;
 }
-/*Styling of the header finished*/
 
 
 
 
 
 
-img{
-	width:30%;
+@media(min-width:576px){
+html{
+	font-size:20px;
 }
+}
+
+
+
+
+@media(min-width:768px){
+html{font-size:24px;
+}
+}
+
+
+
+
+
+@media(min-width:992px){
+html{font-size:28px;
+}
+}
+
+
+
+
+
+@media(min-width:1200px){
+html{font-size:32px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
