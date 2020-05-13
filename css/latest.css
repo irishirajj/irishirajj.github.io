@@ -12,16 +12,18 @@ html{
 }
 header{
 	background: #abcabc;
+	display:inline-block;
 }
 .navcontainer{
-	display:inline-block;
+	display:inline;
 	float:right;
+
 }
 .navcontainer button{
-
+	font-size: :0.8rem;
 }
 .navcontainer button span{
-
+	font-size: :0.8rem;
 }
 
 	img{
