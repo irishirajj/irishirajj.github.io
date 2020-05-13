@@ -31,7 +31,7 @@ header{
 header{
 	
 	height:10vw;
-	min-height: 60px;
+	min-height: 65px;
 	max-height: 77px;
 	background:-moz-linear-gradient(to right,rgb(195, 20, 50 ),rgb(36, 11, 54));
 	background:-webkit-linear-gradient(to right,rgb(195, 20, 50),rgb(36,11, 54));
@@ -89,10 +89,18 @@ padding-right: 5px !important;
 
 
 /*Styling The Intro Section*/
+/*Styling The Intro Section*/
+/*Styling The Intro Section*/
+/*Styling The Intro Section*/
+/*Styling The Intro Section*/
+/*Styling The Intro Section*/
+/*Styling The Intro Section*/
+
 
 .Intro{
 	padding: 16vh 5px 5px 5vw;
 	font-size: 0.8rem;
+	display:inline-block;
 }
 @media(min-width:450px){
 	.Intro{
@@ -115,14 +123,14 @@ padding-right: 5px !important;
 	}
 }
 
-
+/*Styling my image*/
 #mypic{
 	
 	margin:10px 3px 10px 3px;
 	width:48%;
 	float:left;
 }
-@media(min-width: 400px){
+@media(min-width: 400px){  /*applied style on screens larger than 400px*/
 	#mypic{
 		
 	padding-top: 15px;
@@ -131,24 +139,41 @@ padding-right: 5px !important;
 	max-width: 500px;
 	}
 }
-@media(max-width:400px){
-	.Intro-text{
-		padding-top: 4vw;
+@media(min-width:720px){
+	#mypic{
+		float:none;
+		width:40%;
+		padding-left:4vw;
 	}
-}
+	
+
+
+/*Styling  "Hey, i'm Rishi Raj"*/
 .Intro-text{
 
-	height:40vw;
+	height:48vw;
 	max-height: 90vh;
 	text-align: center;
-	padding-top: 13vw;
+	padding-top: 2vw;
 	line-height: 2em;
 	
 
 }
+@media(min-width: 350px){
+	.Intro-text{
+		padding-top: 6vw;
+	}
+}
+@media(min-width: 400px){
+	.Intro-text{
+		padding-top: 9vw;
+	}
+}
+
 @media(min-width: 500px){
 	.Intro-text{
 		height:48vw;
+		padding-top:13vw;
 	}
 }
 
@@ -168,6 +193,18 @@ padding-right: 5px !important;
 .twitter-follow-button{
 	margin-top:10px;
 }
+.Intro{
+	background: pink;
+}
+
+@media(min-width:720px){
+	.Intro-text{
+		float:left;
+		padding-top:9vw;
+		height:48px;
+	}
+}
+
 
 /*Intro Section style finished*/
 
@@ -175,8 +212,21 @@ padding-right: 5px !important;
 /*About Me section style begin*/
 
 
-
-
+.About-me{
+	margin-top: 4vh;
+	background:blue;
+}
+.About-me h2{
+	text-align: center;
+}
+@media(min-width:720px){
+	.About-me{
+		display: inline-block;
+		float:right;
+		width:30%;
+		font-size: 0.8rem;
+	}
+}
 
 
 
