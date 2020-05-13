@@ -13,7 +13,16 @@ html{
 header{
 	background: #abcabc;
 }
+.navcontainer{
+	display:inline-block;
+	float:right;
+}
+.navcontainer button{
 
+}
+.navcontainer button span{
+
+}
 
 	img{
 	width:50%;
