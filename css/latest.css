@@ -1,5 +1,4 @@
 body{
-	font-size: 16px;
 }
 
 /*Styling of the navigation bar and header*/
@@ -29,19 +28,15 @@ header{
 }
 
 header{
+
 	
 	height:10vw;
-	min-height: 65px;
+	min-height: 60px;
 	max-height: 77px;
 	background:-moz-linear-gradient(to right,rgb(195, 20, 50 ),rgb(36, 11, 54));
 	background:-webkit-linear-gradient(to right,rgb(195, 20, 50),rgb(36,11, 54));
 	background:-ms-linear-gradient(to right,rgb(195, 20, 50 ),rgb(36, 11, 54));
-	/*background:linear-gradient(to right,rgb(31, 64, 55 ),rgb(153, 242, 200)); */
-	background:linear-gradient(to right,rgb(195, 20, 50),rgb(36, 11, 54));
-
-}
-.myname{
-
+@@ -19,27 +45,30 @@ header{
 	padding:15px 5px 0px 5px ;
 	display:inline-block;
 	margin-left:3%;
@@ -52,14 +47,16 @@ h1{
 
 	color:white;
 	font-family: 'Josefin Sans';
+	
 	font-size:2.2em;
 	font-weight: 800;
 
 }
 .navcontainer{
 	
+
 	min-height: 60px;
-	
+
 	background:-moz-linear-gradient(to right,rgb(115.5, 15.5, 52),rgb(36, 11, 54));
 	background:-webkit-linear-gradient(to right,rgb(115.5, 15.5, 52),rgb(36,11, 54));
 	background:-ms-linear-gradient(to right,rgb(115.5, 15.5, 52 ),rgb(36, 11, 54));
@@ -68,39 +65,17 @@ h1{
 	padding:5px 5px 3px 5px;
 	display:inline-block;
 	float:right;
-	
 }
 
 
-.custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-
-.custom-toggler.navbar-toggler {
-  border-color: rgb(255,102,203);
-}
-.nav-link {
-color: yellow !important;
-padding-left: 10px !important;
-padding-right: 5px !important;
-}
-/*Styling of the header finished*/
-
 
 
 /*Styling The Intro Section*/
-/*Styling The Intro Section*/
-/*Styling The Intro Section*/
-/*Styling The Intro Section*/
-/*Styling The Intro Section*/
-/*Styling The Intro Section*/
-/*Styling The Intro Section*/
-
 
 .Intro{
+	
 	padding: 16vh 5px 5px 5vw;
 	font-size: 0.8rem;
-	display:inline-block;
 }
 @media(min-width:450px){
 	.Intro{
@@ -109,128 +84,56 @@ padding-right: 5px !important;
 }
 @media (min-width: 650px){
 	.Intro{
-		font-size:1.3rem;
-	}
-}
-@media (min-width: 870px){
-	.Intro{
-		font-size:1.5rem;
-	}
-}
-@media (min-width: 1100px){
-	.Intro{
-		font-size:1.7rem;
-	}
-}
+padding-right: 5px !important;
 
-/*Styling my image*/
+}
 #mypic{
-	
+
 	margin:10px 3px 10px 3px;
 	width:48%;
 	float:left;
 }
-@media(min-width: 400px){  /*applied style on screens larger than 400px*/
+@media(min-width: 400px){
 	#mypic{
-		
+
 	padding-top: 15px;
 	width:48%;
 	float:left;
 	max-width: 500px;
+
 	}
 }
-@media(min-width:720px){
-	#mypic{
-		float:none;
-		width:40%;
-		padding-left:4vw;
+@media(max-width:400px){
+	.Intro-text{
+		padding-top: 4vw;
 	}
-	
-
-
-/*Styling  "Hey, i'm Rishi Raj"*/
+}
 .Intro-text{
 
-	height:48vw;
+	
+	height:40vw;
 	max-height: 90vh;
 	text-align: center;
-	padding-top: 2vw;
+	padding-top: 13vw;
 	line-height: 2em;
 	
 
-}
-@media(min-width: 350px){
-	.Intro-text{
-		padding-top: 6vw;
-	}
-}
-@media(min-width: 400px){
-	.Intro-text{
-		padding-top: 9vw;
-	}
-}
 
+}
 @media(min-width: 500px){
 	.Intro-text{
 		height:48vw;
-		padding-top:13vw;
 	}
 }
 
 .Intro .littlespan{
-	
+
 	font-size: 1em;
-	font-weight: bold;
-	font-style:oblique;
-
-}
-
-.Intro span{
-
-	font-size: 3em;
-	font-weight: bold;
-}
-.twitter-follow-button{
+@@ -116,6 +169,11 @@ padding-right: 5px !important;
 	margin-top:10px;
 }
-.Intro{
-	background: pink;
-}
-
-@media(min-width:720px){
-	.Intro-text{
-		float:left;
-		padding-top:9vw;
-		height:48px;
-	}
-}
-
 
 /*Intro Section style finished*/
 
 
 /*About Me section style begin*/
-
-
-.About-me{
-	margin-top: 4vh;
-	background:blue;
-}
-.About-me h2{
-	text-align: center;
-}
-@media(min-width:720px){
-	.About-me{
-		display: inline-block;
-		float:right;
-		width:30%;
-		font-size: 0.8rem;
-	}
-}
-
-
-
-
-.gallery{
-	width:50%;
-}

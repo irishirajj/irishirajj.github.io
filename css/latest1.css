@@ -3,6 +3,7 @@ header{
 	
 	height:14vw;
 	min-height: 23px;
+	max-height:30px;
 	background:-moz-linear-gradient(to right,rgb(195, 20, 50 ),rgb(36, 11, 54));
 	background:-webkit-linear-gradient(to right,rgb(195, 20, 50),rgb(36,11, 54));
 	background:-ms-linear-gradient(to right,rgb(195, 20, 50 ),rgb(36, 11, 54));

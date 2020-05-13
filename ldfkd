@@ -1,0 +1,53 @@
+[33mcommit 9c0deeee2dd3c772d278b2606932363c8b19c8ba[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Rishi <rishihu@pranjalka.com>
+Date:   Wed May 13 16:00:34 2020 +0530
+
+    made a new stylesheet
+
+[33mcommit c1828c8125753dab6270d2e5900d9835bb071b88[m
+Author: Rishi <rishihu@pranjalka.com>
+Date:   Tue May 12 11:48:09 2020 +0530
+
+    Responsive Intro and header
+
+[33mcommit e7aeb9d836da63c4b1e004f33f551ba61c3d38fe[m
+Author: Rishi <rishihu@pranjalka.com>
+Date:   Tue May 12 06:31:26 2020 +0530
+
+    Styled Intro section
+
+[33mcommit 184ad52ce3dce73b7b4b54ebf2a8099caf60d3ee[m
+Author: Rishi <rishihu@pranjalka.com>
+Date:   Tue May 12 02:21:38 2020 +0530
+
+    Finished the styling of header
+
+[33mcommit a15599a95a19eccfe4bde997ba84fba5552d5be7[m
+Author: Rishi <rishihu@pranjalka.com>
+Date:   Mon May 11 23:37:40 2020 +0530
+
+    Fixed the navbar
+
+[33mcommit da5ae8ff4d646a4009a219c0c220290ba6ada823[m
+Author: Rishi <rishihu@pranjalka.com>
+Date:   Sun May 10 23:45:36 2020 +0530
+
+    Added all the images, links and icons
+
+[33mcommit 7b91dc6d63cb6e44e6af1af50f58f52430bf9c4c[m
+Author: Rishi <rishihu@pranjalka.com>
+Date:   Sun May 10 16:31:01 2020 +0530
+
+    Finished writing the html contents
+
+[33mcommit 9410eef58f614fca963f3fe3f8fa6ff38677f2d6[m
+Author: Rishi <rishihu@pranjalka.com>
+Date:   Sun May 10 08:27:18 2020 +0530
+
+    Adding the image files to repo
+
+[33mcommit 1d3de12beb85d56b830adb2ddec118d62a0b7950[m
+Author: Rishi Raj <44468027+irishiraj9@users.noreply.github.com>
+Date:   Sun May 10 06:17:39 2020 +0530
+
+    Initial commit
