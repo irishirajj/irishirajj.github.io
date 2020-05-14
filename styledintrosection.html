@@ -23,7 +23,7 @@
 	<script src="https://kit.fontawesome.com/a54f558e2d.js" crossorigin="anonymous"></script>
 
 	<!--Google Fonts and BootStrap Core CSS-->
-	<link href='https://fonts.googleapis.com/css?family=Chewy|Josefin Sans|Merriweather Sans:800,900' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Chewy|Josefin Sans' rel='stylesheet'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 
@@ -34,7 +34,7 @@
 	<script src="js/latest.js"></script>
 
 	<!--My own StyleSheet-->
-	<link rel="stylesheet" type="text/css" href="css/latest.css">
+	<link rel="stylesheet" type="text/css" href="css/styledintrosection.css">
 
 </head>
 
@@ -48,28 +48,28 @@
 		</div>
 		<div class="navcontainer">
 			<nav class="navbar navbar-expand-md  navbar-dark justify-content-end ">
-    			<button class="navbar-toggler custom-toggler navbutton" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      				<span class="navbar-toggler-icon navspan "></span>
+    			<button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      				<span class="navbar-toggler-icon "></span>
      			</button>
       		<div class="collapse navbar-collapse flex-grow-0" id="collapsibleNavbar">
     			<ul class="navbar-nav">
     		  		<li class="nav-item">
-      	  				<a class="nav-link" href="#Profile">Profile</a>
+      	  				<a class="nav-link" href="#">Profile</a>
       				</li>
     		 		 <li class="nav-item">
-        				<a class="nav-link" href="#Education">Education</a>
+        				<a class="nav-link" href="#">Education</a>
       				</li>
 					<li class="nav-item special-link">
-      		 			<a class="nav-link" href="#Abilities">Abilities</a>
+      		 			<a class="nav-link" href="#">Abilities</a>
     		 		 </li>
 					<li class="nav-item">
-      		  			<a class="nav-link" href="#Projects">Projects</a>
+      		  			<a class="nav-link" href="#">Projects</a>
     		 		 </li>
 					<li class="nav-item">
-      		 			<a class="nav-link" href="#Art">Art</a>
+      		 			<a class="nav-link" href="#">Arts</a>
     		 		 </li>
 					<li class="nav-item">
-      		 			<a class="nav-link" href="#Contact">Contact</a>
+      		 			<a class="nav-link" href="#">Contact</a>
     				</li>
   		 		</ul>
 			</div>
@@ -78,44 +78,35 @@
 	</header>
 
 
-	<section class="Intro pb-5" id="Profile">
-		<div class="row justify-content-around">
-		<div class="align-self-center  ml-4 mx-md-0 col-5  col-md-4 c order-md-2 " id="pic">
-			<div class="filler">
-				<img class="rounded-circle"width="90%" height="80%" id="mypic"src="images/rishi.png">
-			</div>
-		</div>
-		<div class="align-self-center   col-6 col-md-3 order-md-1" id="mytag">
-
+	<section class="Intro">
+		<img id="mypic"src="images/rishi.png">
+		<div class="Intro-text">
 			<span class="littlespan">Hey, I'm</span><br>
 			<span>RISHI</span><br>
-			<span>RAJ</span><br><br>
+			<span>RAJ</span><br>
 			<a href="https://twitter.com/irishirajj" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @_Raj_Rishi_</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-		</div>
-		<div class="align-self-center mt-5 mt-md-0 mx-5 ml-md-0 px-5 px-md-0 mr-md-4 col-12 col-md-4 order-md-3 " id="myintro">
-			<div id="myintrohead">
-				<h2>About me</h2>
-			</div>
-				<p> I am an engineering student, and an all-round web-developer. I do college projects, freelancing and sometimes write about these in my blog. I have a good knowledge of machine learning and currently doing some projects in it too. I like working in a team, you'll learn faster and much more. As the saying goes : "two heads are better than one."</p>
-		</div>
 		</div>
 	</section>
 
 
-	<section id="Education" class="restsection">
 
-		<div class="centered">
-			<h2>Education</h2>
-			<div class="quotes">
-				<p>"It's not the lawyer who knows the most law, but the one who best prepares his case, who wins."<br>
-				<i>-Napolean Hill, Think &amp; Grow Rich</i>
-				</p>
-			</div>
+	<section class="About me">
+		<h2>About me</h2>
+		<p> I am an engineering student, and an all-round web-developer. I do college projects, freelancing and sometimes write about these in my blog. I have a good knowledge of machine learning and currently doing some projects in it too. I like working in a team, you'll learn faster and much more. As the saying goes : "two heads are better than one."</p>
+	</section>
+
+
+	<section class="Experiences">
+
+		<div>
+			<h2>Experiences</h2>
+			<p>"It's not the lawyer who knows the most law, but the one who best prepares his case, who wins."</p>
+			<span>- Napolean Hill, Think &amp; Grow Rich</span>
 		</div>
-		<hr>
 
+		<span><h3>Educations</h3></span>
 
-		<div class="school">
+		<div>
 			<h4>Indian Institute of Technology Varanasi (IIT-BHU)</h4>
 			<span>Jul 2018 - Current</span>
 			<h5>B.Tech + M.Tech- Mechanical Engineering</h5>
@@ -123,7 +114,7 @@
 			<span>Varanasi</span>
 		</div>
 
-		<div class="school">
+		<div>
 			<h4>Manas International Public School</h4>
 			<span>May 2015 - Mar 2017</span>
 			<h5>Senior Secondary : Science</h5>
@@ -131,33 +122,30 @@
 			<span>Jehanabad</span>
 		</div>
 
-		<div class="school">
+		<div>
 			<h4>DAV Public School</h4>
 			<span>Apr 2008 - Mar 2015</span>
 			<h5>High School</h5>
 			<i class="fas fa-map-marker-alt"></i>
 			<span>Jehanabad</span>
-		</div><!--rest sections == the lower section which are having different styling than Intro section-->
+		</div>
 
 	</section>
 
 
-	<section id="Abilities" class="restsection">
+	<section class="Abilities">
 		<div>
 			<h2>Abilities</h2>
-			<div class="quotes">
-				<p>"Be better than yesterday...If you can, try to be be better than half a day ago, even a minute ago!"<br>
-				<i>- Rock Lee </i>
-				</p>
-			</div>
+			<p>"Be better than yesterday...If you can, try to be be better than half a day ago, even a minute ago!"</p>
+			<span>- Rock Lee </span>
 		</div>
-		<hr>
+
 		<div class="Skills">
 			<h3>Skills</h3>
 			<ul>
-				<li class="d-flex">
-					<span class="ability-title mr-auto p-2 ">HTML(5)</span>
-					<span class="ability-score p-2">
+				<li>
+					<span class="ability-title">HTML(5)</span>
+					<span class="ability-score">
 						<span class="fas fa-star"></span>
 						<span class="fas fa-star"></span>
 						<span class="fas fa-star"></span>
@@ -166,9 +154,9 @@
 					</span>
 				</li>
 
-				<li class="d-flex">
-					<span class="ability-title mr-auto p-2">CSS(3)</span>
-					<span class="ability-score p-2">
+				<li>
+					<span class="ability-title">CSS(3)</span>
+					<span class="ability-score">
 						<span class="fas fa-star"></span>
 						<span class="fas fa-star"></span>
 						<span class="fas fa-star"></span>
@@ -177,21 +165,9 @@
 					</span>
 				</li>
 
-				<li class="d-flex">
-					<span class="ability-title mr-auto p-2">JavaScript</span>
-					<span class="ability-score p-2">
-						<span class="fas fa-star"></span>
-						<span class="fas fa-star"></span>
-						<span class="fas fa-star"></span>
-						<span class="fas fa-star"></span>
-						<span class="fas fa-star"></span>
-					</span>
-				</li>
-
-
-				<li class="d-flex">
-					<span class="ability-title mr-auto p-2">C++</span>
-					<span class="ability-score p-2">
+				<li>
+					<span class="ability-title">JavaScript</span>
+					<span class="ability-score">
 						<span class="fas fa-star"></span>
 						<span class="fas fa-star"></span>
 						<span class="fas fa-star"></span>
@@ -201,9 +177,9 @@
 				</li>
 
 
-				<li  class="d-flex">
-					<span class="ability-title mr-auto p-2">Python</span>
-					<span class="ability-score p-2">
+				<li>
+					<span class="ability-title">C++</span>
+					<span class="ability-score">
 						<span class="fas fa-star"></span>
 						<span class="fas fa-star"></span>
 						<span class="fas fa-star"></span>
@@ -213,9 +189,21 @@
 				</li>
 
 
-				<li class="d-flex">
-					<span class="ability-title mr-auto p-2">Bootstrap</span>
-					<span class="ability-score p-2">
+				<li>
+					<span class="ability-title">Python</span>
+					<span class="ability-score">
+						<span class="fas fa-star"></span>
+						<span class="fas fa-star"></span>
+						<span class="fas fa-star"></span>
+						<span class="fas fa-star"></span>
+						<span class="fas fa-star"></span>
+					</span>
+				</li>
+
+
+				<li>
+					<span class="ability-title">Bootstrap</span>
+					<span class="ability-score">
 						<span class="fas fa-star"></span>
 						<span class="fas fa-star"></span>
 						<span class="fas fa-star"></span>
@@ -225,9 +213,9 @@
 				</li>
 
 
-				<li class="d-flex">
-					<span class="ability-title mr-auto p-2">jQuery</span>
-					<span class="ability-score p-2">
+				<li>
+					<span class="ability-title">jQuery</span>
+					<span class="ability-score">
 						<span class="fas fa-star"></span>
 						<span class="fas fa-star"></span>
 						<span class="fas fa-star"></span>
@@ -237,9 +225,9 @@
 				</li>
 
 
-				<li class="d-flex">
-					<span class="ability-title mr-auto p-2">OOP</span>
-					<span class="ability-score p-2">
+				<li>
+					<span class="ability-title">OOP</span>
+					<span class="ability-score">
 						<span class="fas fa-star"></span>
 						<span class="fas fa-star"></span>
 						<span class="fas fa-star"></span>
@@ -249,9 +237,9 @@
 				</li>
 
 
-				<li class="d-flex">
-					<span class="ability-title mr-auto p-2">Machine Learning</span>
-					<span class="ability-score p-2">
+				<li>
+					<span class="ability-title">Machine Learning</span>
+					<span class="ability-score">
 						<span class="fas fa-star"></span>
 						<span class="fas fa-star"></span>
 						<span class="far fa-star"></span>
@@ -268,9 +256,9 @@
 			<h3>Tools</h3>
 			<ul>
 
-				<li class="d-flex">
-					<span class="ability-title mr-auto p-2">Matlab</span>
-					<span class="ability-score p-2">
+				<li>
+					<span class="ability-title">Matlab</span>
+					<span class="ability-score">
 						<span class="fas fa-star"></span>
 						<span class="fas fa-star"></span>
 						<span class="fas fa-star"></span>
@@ -279,9 +267,9 @@
 					</span>
 				</li>
 
-				<li class="d-flex">
-					<span class="ability-title mr-auto p-2">Git</span>
-					<span class="ability-score p-2">
+				<li>
+					<span class="ability-title">Git</span>
+					<span class="ability-score">
 						<span class="fas fa-star"></span>
 						<span class="fas fa-star"></span>
 						<span class="fas fa-star"></span>
@@ -290,9 +278,9 @@
 					</span>
 				</li>
 
-				<li class="d-flex">
-					<span class="ability-title mr-auto p-2">Github</span>
-					<span class="ability-score p-2">
+				<li>
+					<span class="ability-title">Github</span>
+					<span class="ability-score">
 						<span class="fas fa-star"></span>
 						<span class="fas fa-star"></span>
 						<span class="fas fa-star"></span>
@@ -301,9 +289,9 @@
 					</span>
 				</li>
 
-				<li class="d-flex">
-					<span class="ability-title mr-auto p-2">Atom Text</span>
-					<span class="ability-score p-2">
+				<li>
+					<span class="ability-title">Atom Text</span>
+					<span class="ability-score">
 						<span class="fas fa-star"></span>
 						<span class="fas fa-star"></span>
 						<span class="fas fa-star"></span>
@@ -313,9 +301,9 @@
 				</li>
 
 
-				<li class="d-flex">
-					<span class="ability-title mr-auto p-2">MS Office</span>
-					<span class="ability-score p-2">
+				<li>
+					<span class="ability-title">MS Office</span>
+					<span class="ability-score">
 						<span class="fas fa-star"></span>
 						<span class="fas fa-star"></span>
 						<span class="fas fa-star"></span>
@@ -331,25 +319,19 @@
 	</section>
 
 
-	<section id="Projects" class="restsection">
+	<section class="Projects">
 		<div>
 			<h2>Projects</h2>
-			<div class="quotes">
-				<p>"Be not afraid of growing slowly, be afraid only of standing still"</p>
-			</div>
+			<p>"Be not afraid of growing slowly, be afraid only of standing still"</p>
 		</div>
-		<hr>
 	</section>
 
 
-	<section id="Art" class="restsection">
+	<section class='Art'>
 		<div>
 			<h2>Art</h2>
-			<div class="quotes">
-				<p>"Its all about being able to bend things, most people see as straight lines."</p>
-			</div>
+			<p>"Its all about being able to bend things, most people see as straight lines."</p>
 		</div>
-		<hr>
 		<div>
 			<figure>
 			  <img class="gallery" src="images/rishi_bahubali.jpg" alt="Angry Bahubali pic">
@@ -373,7 +355,7 @@
 			</figure>
 			<figure>
 			  <img class="gallery" src="images/rishi_hurt.png" alt="Thors hurt the one who give the roses">
-			  <figcaption></figcaption>
+			  <figcaption>Thorns hurt the one who give the roses</figcaption>
 			</figure>
 
 
@@ -381,17 +363,13 @@
 	</section>
 
 
-	<section id="Contact" class="restsection">
+	<section class="Contact">
 		<div>
 			<h2>Let's</h2>
 			<h2>Connect</h2>
-			<div class="quotes">
-				<p>"If you don't like the hand that fate's dealt you with, fight for a new one."<br>
-				<i>- Naruto Uzumaki</i>
-				</p>
-			</div>
+			<p>"If you don't like the hand that fate's dealt you with, fight for a new one."</p>
+			<span>- Naruto Uzumaki</span>
 		</div>
-		<hr>
 
 		<div>
 			<p>Let's Connect. I prefer <a href="https://www.linkedin.com/in/irishirajj">LinkedIn messages</a> and <a href="https://twitter.com/irishirajj">Twitter DMs.</a></p>

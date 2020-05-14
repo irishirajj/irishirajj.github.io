@@ -1,3 +1,6 @@
+body{
+    overflow-x:hidden;
+}
 html{
 	font-size:10px;
 }
@@ -5,28 +8,120 @@ html{
 .myname h1{ /*Styled the heading "Rishi Raj"*/
 	font-family: "Merriweather Sans";
 	font-weight: 800;
-	font-size:1.5rem;
+	font-size:1.8rem;
+	color:#ffffff;
 }
 .myname{
-	display: inline-block;
+	padding:12px 5px 0px 5px ;
+	display:inline-block;
+	margin-left:3%;
 }
 header{
-	background: #abcabc;
-	display:inline-block;
+	
+	height: 44px;
+	
+	background:-moz-linear-gradient(to right,rgb(195, 20, 50 ),rgb(36, 11, 54));
+	background:-webkit-linear-gradient(to right,rgb(195, 20, 50),rgb(36,11, 54));
+	background:-ms-linear-gradient(to right,rgb(195, 20, 50 ),rgb(36, 11, 54));
+	background:linear-gradient(to right,rgb(195, 20, 50),rgb(36, 11, 54));
 }
 .navcontainer{
+	background:-moz-linear-gradient(to right,rgb(115.5, 15.5, 52),rgb(36, 11, 54));
+	background:-webkit-linear-gradient(to right,rgb(115.5, 15.5, 52),rgb(36,11, 54));
+	background:-ms-linear-gradient(to right,rgb(115.5, 15.5, 52 ),rgb(36, 11, 54));
+	background:linear-gradient(to right,rgb(115.5, 15.5, 52),rgb(36, 11, 54));
+	padding:5px 5px 3px 5px;
+	display:inline-block;
+	float:right;	
+	font-size:.7rem;
+}
+.nav-link{
+	font-size:1.2rem;
+}
+/*Styling my Intro section*/
+.Intro{
+	padding-top: 54px;
+}
+#pic{
 	display:inline;
-	float:right;
+	padding: 10px; border-radius: 50%; display: inline-block;
+  background: yellow; 
+  background: -webkit-linear-gradient(yellow, white); 
+  background: -o-linear-gradient(yellow, white); 
+  background: -moz-linear-gradient(yellow, white); 
+  background: linear-gradient(yellow, white); 
+	
+}
+.filler{
+	border-radius:50%;
+	background: white;
+}
+#mypic{
+	display: inline;
+	
+	width:100% !important;
+	border-radius: 50%;
+}
+#mytag{
+	display:inline-block;
+	text-align: center;
+}
+#mytag span{
+	font-weight: bold;
+	font-size:4rem;
+	line-height: 2.5rem;
+}
+#mytag .littlespan{
+	font-weight: bold;
+	font-style:oblique;
+	font-size:1.3rem;
+}
+#myintro{
+	
+	text-align: justify;
+  	text-justify: inter-word;
+}
+#myintrohead h2{
+	text-align:center;
+	font-size:3rem;
+	font-weight:600!important;
+}
 
+
+
+/*Styling the Experience Section*/
+.restsection{
+	padding: 8vh 6vw 8vh 6vw;	
 }
-.navcontainer button{
-	font-size: :0.8rem;
+.restsection h2{
+	font-size: 3rem;
+	font-weight:400;
+	text-align:center;
 }
-.navcontainer button span{
-	font-size: :0.8rem;
+#Education{
+	background: #F3EFE0;
+}
+.quotes{
+	text-align:center;
+}
+hr{
+	margin:5vh 0vh 5vh 0vh;
+}
+h4{
+	font-weight: bold;
+}
+.school{
+	margin-bottom: 4vh;
+}
+/*Styling the abilities section*/
+#Abilities ul{
+	list-style-type: none;
 }
 
-	img{
+
+
+
+img{
 	width:50%;
 }
 
@@ -36,9 +131,24 @@ header{
 
 
 
+
+
 @media(min-width:400px){
 html{
-	font-size:16px;
+	font-size:12px;
+}
+header{
+	height: 51px;
+}
+.myname h1{
+	font-size: 2.4rem;
+}
+.myname {
+	padding:12px 5px 0px 5px;
+}
+/*Styling my Intro section*/
+.Intro{
+	padding-top: 61px;
 }
 
 }
@@ -50,7 +160,17 @@ html{
 
 @media(min-width:576px){
 html{
-	font-size:20px;
+	font-size:14px;
+}
+header{
+	height: 58px;
+}
+.myname h1{
+	font-size: 2.4rem
+}
+/*Styling my Intro section*/
+.Intro{
+	padding-top: 68px;
 }
 }
 
@@ -58,7 +178,29 @@ html{
 
 
 @media(min-width:768px){
-html{font-size:24px;
+html{
+	font-size:15px;
+}
+header{
+	height:69px;
+}
+.myname h1{
+	font-size: 3rem;
+}
+.navcontainer{
+	background: none;
+}
+/*Styling my Intro section*/
+.Intro{
+	padding-top: 109px;
+	font-size: 1rem;
+}
+/*Styling the Experience section*/
+.restsection{
+	padding: 11vh 14vw 11vh 14vw;	
+}
+.school{
+	font-size: 0.8rem;
 }
 }
 
@@ -67,7 +209,29 @@ html{font-size:24px;
 
 
 @media(min-width:992px){
-html{font-size:28px;
+html{
+	font-size:19px;
+}
+header{
+	height:85px;
+}.myname h1{
+	font-size: 2.8rem
+}
+
+.nav-link{
+	font-size: 1rem;
+}
+/*Styling my Intro section*/
+.Intro{
+	padding-top: 125px;
+	font-size:0.9rem;
+}
+#myintrohead h2{
+	font-size:2.5rem;
+}
+/*Styling the Experience section*/
+.restsection{
+	padding: 12vh 16vw 12vh 16vw;
 }
 }
 
@@ -76,7 +240,22 @@ html{font-size:28px;
 
 
 @media(min-width:1200px){
-html{font-size:32px;
+html{font-size:21px;
+}
+header{
+	height:88px;
+}
+
+.nav-link{
+	font-size:1rem;
+}
+/*Styling my Intro section*/
+.Intro{
+	padding-top: 130px;
+}
+/*Styling the Experience section*/
+.restsection{
+	padding: 14vh 20vw 14vh 20vw;	
 }
 }
 
