@@ -118,15 +118,14 @@ h4{
 	list-style-type: none;
 }
 
-
-
-
 img{
-	width:50%;
+	display:inline-block !important;
+
 }
-
-
-
+.gallery-container{
+	align-items: center;
+	text-align: center;
+}
 
 
 
