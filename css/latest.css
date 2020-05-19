@@ -135,19 +135,21 @@ img{
 #Contact{
     background-image: url("../images/world.png");
     background-color:#f1f1f1;
+    background-color: #fff5f5;
     background-position: 50% 50%;
     background-repeat: no-repeat;
 
 }
-.ContactList{
+.ContactLinks{
   list-style-type: none;
   text-align: center;
 }
-.ContactList li{
-  display:inline-block;
-}
+
 .ConnectMessage{
   text-align: center;
+}
+.ContactIcons{
+  font-size: 3em;
 }
 
 
@@ -171,6 +173,9 @@ header{
 .Intro{
 	padding-top: 61px;
 }
+.ContactIcons{
+  font-size: 5em;
+}
 
 }
 
@@ -192,6 +197,9 @@ header{
 /*Styling my Intro section*/
 .Intro{
 	padding-top: 68px;
+}
+.ContactIcons{
+  font-size: 6em;
 }
 }
 
@@ -222,6 +230,9 @@ header{
 }
 .school{
 	font-size: 0.8rem;
+}
+.ContactIcons{
+  font-size: 7em;
 }
 }
 
@@ -254,6 +265,9 @@ header{
 .restsection{
 	padding: 12vh 16vw 12vh 16vw;
 }
+.ContactIcons{
+  font-size: 8em;
+}
 }
 
 
@@ -277,5 +291,8 @@ header{
 /*Styling the Experience section*/
 .restsection{
 	padding: 14vh 20vw 14vh 20vw;
+}
+.ContactIcons{
+  font-size: 7em;
 }
 }
