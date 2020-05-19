@@ -141,6 +141,13 @@ img{
 }
 .ContactList{
   list-style-type: none;
+  text-align: center;
+}
+.ContactList li{
+  display:inline-block;
+}
+.ConnectMessage{
+  text-align: center;
 }
 
 
