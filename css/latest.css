@@ -17,9 +17,9 @@ html{
 	margin-left:3%;
 }
 header{
-	
+
 	height: 44px;
-	
+
 	background:-moz-linear-gradient(to right,rgb(195, 20, 50 ),rgb(36, 11, 54));
 	background:-webkit-linear-gradient(to right,rgb(195, 20, 50),rgb(36,11, 54));
 	background:-ms-linear-gradient(to right,rgb(195, 20, 50 ),rgb(36, 11, 54));
@@ -32,7 +32,7 @@ header{
 	background:linear-gradient(to right,rgb(115.5, 15.5, 52),rgb(36, 11, 54));
 	padding:5px 5px 3px 5px;
 	display:inline-block;
-	float:right;	
+	float:right;
 	font-size:.7rem;
 }
 .nav-link{
@@ -45,12 +45,12 @@ header{
 #pic{
 	display:inline;
 	padding: 10px; border-radius: 50%; display: inline-block;
-  background: yellow; 
-  background: -webkit-linear-gradient(yellow, white); 
-  background: -o-linear-gradient(yellow, white); 
-  background: -moz-linear-gradient(yellow, white); 
-  background: linear-gradient(yellow, white); 
-	
+  background: yellow;
+  background: -webkit-linear-gradient(yellow, white);
+  background: -o-linear-gradient(yellow, white);
+  background: -moz-linear-gradient(yellow, white);
+  background: linear-gradient(yellow, white);
+
 }
 .filler{
 	border-radius:50%;
@@ -58,7 +58,7 @@ header{
 }
 #mypic{
 	display: inline;
-	
+
 	width:100% !important;
 	border-radius: 50%;
 }
@@ -77,7 +77,7 @@ header{
 	font-size:1.3rem;
 }
 #myintro{
-	
+
 	text-align: justify;
   	text-justify: inter-word;
 }
@@ -91,7 +91,7 @@ header{
 
 /*Styling the Experience Section*/
 .restsection{
-	padding: 8vh 6vw 8vh 6vw;	
+	padding: 8vh 6vw 8vh 6vw;
 }
 .restsection h2{
 	font-size: 3rem;
@@ -126,7 +126,22 @@ img{
 	align-items: center;
 	text-align: center;
 }
+#Projects{
 
+}
+#Art{
+   background: #F3EFE0;
+}
+#Contact{
+    background-image: url("../images/world.png");
+    background-color:#f1f1f1;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+
+}
+.ContactList{
+  list-style-type: none;
+}
 
 
 
@@ -196,7 +211,7 @@ header{
 }
 /*Styling the Experience section*/
 .restsection{
-	padding: 11vh 14vw 11vh 14vw;	
+	padding: 11vh 14vw 11vh 14vw;
 }
 .school{
 	font-size: 0.8rem;
@@ -254,25 +269,6 @@ header{
 }
 /*Styling the Experience section*/
 .restsection{
-	padding: 14vh 20vw 14vh 20vw;	
+	padding: 14vh 20vw 14vh 20vw;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
